@@ -11,13 +11,12 @@ public class teste {
 
         int contador = scan.nextInt(); //entrada da pergunta ao cliente
 
-        while (contador <= 15) {   //teste do while aqui
+        while (contador < 15) {   //teste do while aqui
             System.out.println(contador + 1); //utilizando o +1 para nao repetir  o codigo quando for perguntado ao cliente
             contador++;
         }
 
         System.out.println("Vamos inciar o teste de for agora...");
-
         System.out.println("Diga um numero menor que 5...");
 
         for (int contador2 = scan.nextInt(); contador2 < 5; contador2++){ //iniciando o metodo for com a dinamica de perguntar ao cliente
