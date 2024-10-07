@@ -6,7 +6,7 @@ public class teste {
         Scanner scan = new Scanner(System.in); //implementando o scan para teste de scanner com o while e for
         System.out.println("Seja bem-vindo ao meu teste de while e for");
 
-        System.out.println("Primeiro, digite um numero para o seu teste de while...");
+        System.out.println("Primeiro, digite um numero para o teste de while...");
         System.out.println("O numero deve ser menor que 15! Vamos la!");
 
         int contador = scan.nextInt(); //entrada da pergunta ao cliente
